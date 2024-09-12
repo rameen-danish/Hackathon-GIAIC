@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 150px;
+    text-decoration: none;
+}
+
+.static-resume {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    margin :0 auto;
+    border-radius: 50px;
+    box-shadow: 0 0 20px black;
+}
+
+.left-section {
+    background-color: rgb(10, 10, 133);
+    width: 35%;
+    border-right: 10px dotted white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.profile-pic {
+    height: 190px;
+    width: 170px;
+    border-radius: 50%;
+    border: 5px solid cyan;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 40px cyan;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px 0;
+    font-style: italic;
+    text-shadow: 0 0 5px cyan;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2{
+    background-color: rgb(10, 10, 133);
+    padding:2%;
+    margin:20px 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px cyan;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+}
+ul{
+    text-align:start;
+    padding: 10;
+    margin: 10px 0;
+
+}
+ul li{
+    margin: 5px 0;
+}
+p{
+    line-height: 2em;
+}
+.left-section a{
+text-decoration: none;
+color: white;
+}
+.left-section p{
+    text-align:start;
+    padding-left:20px;
+}
+.right-section{
+    width:65%;
+    padding:20px;
+}
+.right-section h2{
+    text-align: center;
+}
+button {
+    border-radius: 10px;
+    background-color: rgb(10, 10, 133);
+    color:white;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+button:hover {
+   color:cyan ;
+   box-shadow: 0 0 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    body{
+        padding: 0;
+    }
+    .static-resume {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 20px black;
+    }
+    .left-section {
+        width: 30%;
+        border-right: 5px dotted white;
+    }
+    .profile-pic {
+        height: 150px;
+        width: 120px;
+        border-radius: 50%;
+        border: 2px solid cyan;
+        margin-top: 5%;
+        margin-bottom: 20px;
+        box-shadow: 0 0 30px cyan;
+        padding-left: 0;
+
+    }
+    h1 {
+        font-size: 25px;
+        margin: 10px 0;
+        font-style: italic;
+        text-shadow: 0 0 3px cyan;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .left-section p{
+        font-size: small;
+        text-align: justify;
+        padding-left:0;
+        
+    }
+    h2{
+        font-size: 20px;
+        padding:3%;
+        margin:20px 0 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px cyan;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    ul {
+        padding: 0;
+        font-size: small;
+    }
+    p{
+        line-height: 1.5em;
+    }
+    .right-section{
+        font-size: small;
+    }
+    button{
+        margin-left: 10%;
+    font-size: 15px;
+    }
+}
